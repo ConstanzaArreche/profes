@@ -1,0 +1,47 @@
+
+/***
+	RESPONSIVE
+***/
+@media only screen and (max-width: 767px) {
+
+	/***
+		NAVBAR
+	***/
+
+	.navbar{
+		padding: 0px;
+	}
+	.navbar-brand>img {
+    	width: 50px;
+    	margin-top: -15px;
+    	padding: 3px;
+	}
+
+	.navbar-default .navbar-collapse#bs-example-navbar-collapse-1{
+		float: none;
+	}
+
+	.navbar-nav>li.btn-clases-particulares>a{
+		display: inline-block;
+		margin-left: 10px;
+	}
+
+	.navbar-nav>li{
+		padding-left: 15px;
+	}
+
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    	color: #777;
+    	text-align: left;
+	}
+
+	.navbar-nav .open .dropdown-menu {
+    	padding-left: 20px;
+	}
+
+	.dropdown-menu>li.no-read {
+    	text-align: left;
+	}
+
+}
+
